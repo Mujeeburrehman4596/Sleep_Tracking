@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#sleep-list .list-group-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+#analysis {
+    margin-top: 1rem;
+}
+
+#tips-list {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#tips-list .list-group-item {
+    transition: background-color 0.3s ease;
+}
+
+#tips-list .list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+#tip-detail {
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
